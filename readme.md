@@ -81,10 +81,9 @@ You now have the necessary environment to run library system
 Additionally, when encountering the following lines of code in the insert/remove/retrieve/update java files:
 
 ```java
-Connection con = DriverManager.getConnection(
-					URL:"",
-                    User:"",
-                    Password:"");
+Connection con = DriverManager.getConnection(URL:"",
+User:"",
+Password:"");
 
 ```
 
